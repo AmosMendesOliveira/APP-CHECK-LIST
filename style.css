@@ -1,0 +1,98 @@
+
+    body {
+        height: 100vh; /* Full viewport height */
+        margin: 0; /* Remove default margin */
+        background: linear-gradient(135deg, #6a5acd, #00bfff, #ff69b4); /* Linear gradient */
+        background-size: 300% 300%; /* Increase size for smoother animation */
+        animation: gradientAnimation 5s ease infinite; /* Animation for smooth gradient transition */
+    }
+
+    @keyframes gradientAnimation {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+
+h1#h1-form{
+    color: aliceblue;
+    font: bold;
+    text-align: center;
+   
+   
+}
+div#div-form{
+    margin-inline-start: 30px;
+    margin-top: 30px;
+    display: block;
+    font-family: Arial, sans-serif;
+    min-width: 100px;
+    max-width: 30%;
+    min-height: 30%;
+    max-height: 30%;
+    background-color: rgba(15, 0, 230, 0.897);
+    padding: 10%;
+    border-bottom-right-radius: 20px;
+  
+}
+
+
+input#input-form{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+
+}
+button#button-form{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+   margin-inline-start: 10px;
+   margin-top: 10px;
+   border: none;
+   
+}
+
+
+/* Listar Tarefas*/
+
+div#div-tarefas{
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30PX;
+    margin-top: 30px;
+    min-width: 200px;
+    max-width: 50%;
+    min-height: 80%;
+    max-width: 80%;
+    background-color: rgb(206, 248, 89);
+    
+}
+h1#h1-tarefas{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul#ul-tarefas{
+   
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+section#section-tarefas{
+    display: flex;
+
+}
+h1#h1-tarefas{
+    text-align: center;
+}
+input#input-tarefas{
+   background-color: grey;
+
+   
+}
+li#li-tarefas{
+    background-color: rgba(224, 148, 71, 0.3);
+    padding: 10px;
+    margin-right: 40px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
